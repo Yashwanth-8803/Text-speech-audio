@@ -1,7 +1,7 @@
 import streamlit as st
 #from gtts import gTTS
 import os
-import speech_recognition as sr
+import Speech_Recognition as sr
 from pydub import AudioSegment
 import io
 from textblob import TextBlob
@@ -133,4 +133,5 @@ with tab3:
             st.write(f"**Subjectivity:** {sentiment.subjectivity:.2f}")
         else:
             st.warning("Please paste or select some text first.")
+
 
